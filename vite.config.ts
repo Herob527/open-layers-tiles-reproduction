@@ -4,5 +4,5 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: "/open-layers-tiles-reproduction/"
+  base: "/open-layers-tiles-reproduction/",
 });
