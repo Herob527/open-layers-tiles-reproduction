@@ -14,5 +14,5 @@ new OLMap({
   target: element,
   view,
   controls: [],
-  layers: [countries, contours],
+  layers: [countries],
 });
