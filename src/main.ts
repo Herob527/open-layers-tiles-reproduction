@@ -1,7 +1,7 @@
 import { default as OLMap } from "ol/Map";
 import "./style.css";
 import { View } from "ol";
-import { countries } from "./layers";
+import { countries, contours } from "./layers";
 
 const element = document.getElementById("app")!!;
 
@@ -14,5 +14,5 @@ new OLMap({
   target: element,
   view,
   controls: [],
-  layers: [countries],
+  layers: [countries, contours],
 });
